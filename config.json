@@ -31,7 +31,7 @@
         "class": "logging.handlers.RotatingFileHandler",
         "formatter": "general",
         "maxBytes": 1073741824,
-        "filename": "C:\\Users\\Eran\\PycharmProjects\\DnsServer\\log.log",
+        "filename": "C:\\log.log",
         "backupCount":10
       }
     },
