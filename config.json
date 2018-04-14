@@ -1,0 +1,48 @@
+{
+  "blacklist": [
+    "gstatic",
+    "track.wesell",
+    "settings-win.data.microsoft.com.",
+    "cdn.content.prod.cms.msn.com",
+    "services.pornhub",
+    "m1.nsimg",
+    "m2.nsimg.net",
+	"advertising.amazon.com",
+     "my.nanorep.com"
+  ],
+  "process_count": 4,
+  "dns_server_ip": "1.1.1.1",
+  "logging": {
+    "version": 1,
+    "disable_existing_logger": true,
+    "formatters": {
+      "general": {
+        "class": "logging.Formatter",
+        "format": "%(asctime)s %(process)d %(name)s %(funcName)s %(lineno)d %(levelname)s: %(message)s"
+      }
+    },
+    "handlers": {
+      "console": {
+        "class": "logging.StreamHandler",
+        "formatter": "general",
+        "stream": "ext://sys.stdout"
+      },
+      "file": {
+        "class": "logging.handlers.RotatingFileHandler",
+        "formatter": "general",
+        "maxBytes": 1073741824,
+        "filename": "C:\\Users\\Eran\\PycharmProjects\\DnsServer\\log.log",
+        "backupCount":10
+      }
+    },
+    "loggers": {},
+    "root": {
+      "handlers": [
+        "console", "file"
+      ],
+      "level": "DEBUG"
+    }
+  }
+}
+
+

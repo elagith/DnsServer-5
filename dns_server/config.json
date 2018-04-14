@@ -1,0 +1,20 @@
+{
+  "logging": {
+    "version": 1,
+    "disable_existing_logger": false,
+    "formatters": {
+      "general": {
+        "class": "logging.Formatter",
+        "format": "%(asctime)s %(process)d %(name)s %(funcName)s %(lineno)d %(levelname)s: %(message)s"
+      }
+    },
+    "loggers": {},
+    "root": {
+      "handlers": [
+      ],
+      "level": "DEBUG"
+    }
+  }
+}
+
+
