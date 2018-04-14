@@ -1,0 +1,380 @@
+2018-04-08 23:22:33,056 17768 app INFO: Starting DNS Server
+2018-04-08 23:22:33,056 17768 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-08 23:22:33,101 17768 app DEBUG: starting logger process
+2018-04-08 23:22:33,101 17768 root DEBUG: made dnsserver instance
+2018-04-08 23:22:33,101 17768 app DEBUG: added pipe handler
+2018-04-08 23:22:58,257 5424 app INFO: Starting DNS Server
+2018-04-08 23:22:58,257 5424 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-08 23:22:58,331 5424 app DEBUG: starting logger process
+2018-04-08 23:22:58,331 5424 app DEBUG: added pipe handler
+2018-04-08 23:22:58,332 5424 root DEBUG: made dnsserver instance
+2018-04-13 22:26:58,282 83120 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:26:58,295 83120 root DEBUG: made dnsserver instance
+2018-04-13 22:28:04,079 83928 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:28:36,333 83928 root DEBUG: made dnsserver instance
+2018-04-13 22:29:44,712 61512 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:29:44,723 61512 root DEBUG: made dnsserver instance
+2018-04-13 22:30:00,489 83840 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:30:00,501 83840 root DEBUG: made dnsserver instance
+2018-04-13 22:30:50,938 81584 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:30:54,404 81584 root DEBUG: made dnsserver instance
+2018-04-13 22:31:47,980 83104 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:31:47,991 83104 root DEBUG: made dnsserver instance
+2018-04-13 22:31:59,593 80664 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:31:59,597 80664 root DEBUG: made dnsserver instance
+2018-04-13 22:41:48,517 84704 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:41:48,534 84704 root DEBUG: made dnsserver instance
+2018-04-13 22:41:58,210 83888 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:41:58,222 83888 root DEBUG: made dnsserver instance
+2018-04-13 22:42:42,363 83564 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:42:42,374 83564 root DEBUG: made dnsserver instance
+2018-04-13 22:49:02,797 79108 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:49:02,809 79108 root DEBUG: made dnsserver instance
+2018-04-13 22:49:15,910 71928 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:49:15,921 71928 root DEBUG: made dnsserver instance
+2018-04-13 22:50:32,447 84224 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-13 22:50:32,458 84224 root DEBUG: made dnsserver instance
+2018-04-14 01:58:35,484 71584 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 01:58:35,510 71584 root DEBUG: made dnsserver instance
+2018-04-14 01:59:36,769 87448 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 01:59:41,856 87448 root DEBUG: made dnsserver instance
+2018-04-14 02:00:06,161 88068 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:00:06,173 88068 root DEBUG: made dnsserver instance
+2018-04-14 02:00:33,949 87640 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:00:33,960 87640 root DEBUG: made dnsserver instance
+2018-04-14 02:00:51,564 78680 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:00:51,576 78680 root DEBUG: made dnsserver instance
+2018-04-14 02:00:57,183 89112 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:00:57,194 89112 root DEBUG: made dnsserver instance
+2018-04-14 02:01:16,574 78108 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:01:19,015 78108 root DEBUG: made dnsserver instance
+2018-04-14 02:01:50,977 90060 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:01:50,988 90060 root DEBUG: made dnsserver instance
+2018-04-14 02:03:00,692 89060 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:03:00,703 89060 root DEBUG: made dnsserver instance
+2018-04-14 02:03:14,420 89380 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:03:14,426 89380 root DEBUG: made dnsserver instance
+2018-04-14 02:04:29,697 67904 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:04:29,709 67904 root DEBUG: made dnsserver instance
+2018-04-14 02:08:09,207 87968 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:08:09,218 87968 root DEBUG: made dnsserver instance
+2018-04-14 02:08:26,946 83712 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:08:26,958 83712 root DEBUG: made dnsserver instance
+2018-04-14 02:08:48,015 87452 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:08:48,027 87452 root DEBUG: made dnsserver instance
+2018-04-14 02:10:19,377 68444 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:10:19,381 68444 root DEBUG: made dnsserver instance
+2018-04-14 02:10:59,194 87616 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:10:59,205 87616 root DEBUG: made dnsserver instance
+2018-04-14 02:12:56,312 89372 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:12:56,323 89372 root DEBUG: made dnsserver instance
+2018-04-14 02:13:04,536 68272 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:13:04,539 68272 root DEBUG: made dnsserver instance
+2018-04-14 02:14:18,257 74308 root DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:14:18,264 74308 root DEBUG: made dnsserver instance
+2018-04-14 02:17:19,848 68852 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:17:19,852 68852 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:18:33,259 66016 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:18:33,270 66016 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:18:55,952 87872 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:18:55,962 87872 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:19:10,901 88452 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:19:10,912 88452 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:19:58,394 89188 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:19:58,405 89188 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:20:08,807 89412 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:20:08,813 89412 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:20:29,444 88808 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:20:29,449 88808 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:20:54,371 68220 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:20:54,379 68220 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:22:27,416 88448 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:22:27,422 88448 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:23:18,520 87592 root _setup 67 INFO: adf
+2018-04-14 02:23:49,398 87332 root start 22 INFO: Starting DNS Server
+2018-04-14 02:23:49,399 87332 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:23:49,409 87332 root _logger_thread 43 DEBUG: starting logger process
+2018-04-14 02:23:49,409 87332 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:25:07,517 66564 root start 22 INFO: Starting DNS Server
+2018-04-14 02:25:07,519 66564 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:25:07,525 66564 root _logger_thread 43 DEBUG: starting logger process
+2018-04-14 02:25:07,526 66564 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:26:01,613 11416 root start 22 INFO: Starting DNS Server
+2018-04-14 02:26:01,613 11416 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:26:01,616 11416 root _logger_thread 43 DEBUG: starting logger process
+2018-04-14 02:26:01,616 11416 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:27:33,678 85176 root start 22 INFO: Starting DNS Server
+2018-04-14 02:27:37,554 85176 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:27:44,642 85176 root _logger_thread 43 DEBUG: starting logger process
+2018-04-14 02:27:49,633 85176 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:28:46,957 84300 root start 22 INFO: Starting DNS Server
+2018-04-14 02:28:46,957 84300 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:28:46,969 84300 root _logger_thread 43 DEBUG: starting logger process
+2018-04-14 02:28:46,969 84300 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:28:46,970 84300 dns_server.dns_server setup_worker 53 INFO: made logger
+2018-04-14 02:28:46,970 84300 dns_server.dns_server start_dns_server 30 INFO: hello
+2018-04-14 02:28:46,970 84300 root start 38 INFO: Ending DNS Server
+2018-04-14 02:28:46,970 84300 dns_server.dns_server setup_worker 53 INFO: made logger
+2018-04-14 02:28:46,970 84300 dns_server.dns_server start_dns_server 30 INFO: hello
+2018-04-14 02:29:38,479 88840 root start 22 INFO: Starting DNS Server
+2018-04-14 02:29:38,479 88840 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:29:38,493 88840 root _logger_thread 43 DEBUG: starting logger process
+2018-04-14 02:29:38,493 88840 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:29:38,493 88840 dns_server.dns_server setup_worker 54 INFO: made logger
+2018-04-14 02:29:38,493 88840 dns_server.dns_server start_dns_server 30 INFO: hello
+2018-04-14 02:29:38,493 88840 dns_server.dns_server setup_worker 54 INFO: made logger
+2018-04-14 02:29:38,493 88840 dns_server.dns_server start_dns_server 30 INFO: hello
+2018-04-14 02:29:47,258 69008 root start 22 INFO: Starting DNS Server
+2018-04-14 02:29:47,259 69008 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:29:47,269 69008 root _logger_thread 43 DEBUG: starting logger process
+2018-04-14 02:29:47,269 69008 root start 32 DEBUG: made dnsserver instance
+2018-04-14 02:29:47,270 69008 dns_server.dns_server setup_worker 53 INFO: made logger
+2018-04-14 02:29:47,270 69008 dns_server.dns_server setup_worker 53 INFO: made logger
+2018-04-14 02:30:30,005 87916 root start 23 INFO: Starting DNS Server
+2018-04-14 02:30:30,005 87916 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:30:30,016 87916 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:30:30,016 87916 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:30:30,055 87916 dns_server.dns_server setup_worker 53 INFO: made logger
+2018-04-14 02:30:30,055 87916 dns_server.dns_server setup_worker 53 INFO: made logger
+2018-04-14 02:30:41,268 78408 root start 23 INFO: Starting DNS Server
+2018-04-14 02:30:41,268 78408 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:30:41,279 78408 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:30:41,279 78408 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:30:41,279 78408 dns_server.dns_server setup_worker 53 INFO: made logger
+2018-04-14 02:30:41,279 78408 dns_server.dns_server setup_worker 53 INFO: made logger
+2018-04-14 02:30:57,360 83744 root start 23 INFO: Starting DNS Server
+2018-04-14 02:30:57,360 83744 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:30:57,371 83744 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:30:57,371 83744 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:30:57,372 83744 dns_server.dns_server setup_worker 51 INFO: made logger
+2018-04-14 02:30:57,372 83744 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:30:57,372 83744 dns_server.dns_server setup_worker 51 INFO: made logger
+2018-04-14 02:30:57,372 83744 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:30:57,374 83744 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:30:57,374 83744 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:30:57,374 83744 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:30:57,374 83744 root start 39 INFO: Ending DNS Server
+2018-04-14 02:30:57,374 83744 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:31:11,656 85416 root start 23 INFO: Starting DNS Server
+2018-04-14 02:31:11,657 85416 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:31:11,667 85416 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:31:11,667 85416 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:31:11,668 85416 dns_server.dns_server setup_worker 51 INFO: made logger
+2018-04-14 02:31:11,668 85416 dns_server.dns_server setup_worker 51 INFO: made logger
+2018-04-14 02:31:11,668 85416 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:31:11,668 85416 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:31:11,670 85416 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:31:11,670 85416 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:31:11,670 85416 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:31:11,670 85416 root start 39 INFO: Ending DNS Server
+2018-04-14 02:31:11,670 85416 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:38:13,719 89408 root start 23 INFO: Starting DNS Server
+2018-04-14 02:38:15,845 89408 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:38:17,154 89408 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:38:17,817 89408 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:38:39,729 88968 root start 23 INFO: Starting DNS Server
+2018-04-14 02:38:39,730 88968 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:38:39,732 88968 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:38:39,734 88968 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:40:02,504 90752 root start 23 INFO: Starting DNS Server
+2018-04-14 02:40:02,505 90752 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:40:02,509 90752 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:40:02,509 90752 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:40:02,511 90752 dns_server.dns_server setup_worker 51 INFO: made logger
+2018-04-14 02:40:02,512 90752 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:40:02,513 90752 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:40:02,513 90752 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:40:02,513 90752 root start 39 INFO: Ending DNS Server
+2018-04-14 02:40:02,511 90752 dns_server.dns_server setup_worker 51 INFO: made logger
+2018-04-14 02:40:02,512 90752 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:40:02,513 90752 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:40:02,513 90752 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:41:55,168 67608 root start 23 INFO: Starting DNS Server
+2018-04-14 02:41:55,169 67608 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:41:55,171 67608 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:41:55,172 67608 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:42:59,412 84360 root start 23 INFO: Starting DNS Server
+2018-04-14 02:42:59,413 84360 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:42:59,417 84360 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:42:59,418 84360 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:43:05,757 84360 dns_server.dns_server setup_worker 51 INFO: made logger
+2018-04-14 02:43:05,757 84360 dns_server.dns_server setup_worker 51 INFO: made logger
+2018-04-14 02:43:16,491 90500 root start 23 INFO: Starting DNS Server
+2018-04-14 02:43:16,491 90500 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:43:16,504 90500 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:43:16,504 90500 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:43:16,504 90500 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:43:16,504 90500 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:43:16,505 90500 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:43:16,505 90500 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:43:16,507 90500 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:43:16,507 90500 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:43:16,507 90500 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:43:16,507 90500 root start 39 INFO: Ending DNS Server
+2018-04-14 02:43:16,507 90500 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:44:11,189 90848 root start 23 INFO: Starting DNS Server
+2018-04-14 02:44:11,190 90848 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:44:11,200 90848 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:44:11,200 90848 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:44:11,200 90848 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:44:11,201 90848 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:44:11,200 90848 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:44:11,201 90848 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:44:11,203 90848 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:44:11,203 90848 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:44:11,203 90848 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:44:11,203 90848 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:44:11,203 90848 root start 39 INFO: Ending DNS Server
+2018-04-14 02:44:18,704 85412 root start 23 INFO: Starting DNS Server
+2018-04-14 02:44:18,704 85412 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:44:18,706 85412 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:44:18,707 85412 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:44:18,708 85412 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:44:18,708 85412 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:45:01,570 90688 root start 23 INFO: Starting DNS Server
+2018-04-14 02:45:01,570 90688 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:45:01,582 90688 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:45:01,582 90688 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:45:01,583 90688 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:45:01,584 90688 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:45:01,583 90688 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:45:01,584 90688 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:45:01,585 90688 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:45:01,586 90688 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:45:01,585 90688 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:45:01,586 90688 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:45:01,586 90688 root start 39 INFO: Ending DNS Server
+2018-04-14 02:45:24,762 66856 root start 23 INFO: Starting DNS Server
+2018-04-14 02:45:24,763 66856 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:45:24,767 66856 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:45:24,768 66856 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:45:24,769 66856 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:45:27,141 66856 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:45:27,142 66856 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:45:27,142 66856 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:45:27,142 66856 root start 39 INFO: Ending DNS Server
+2018-04-14 02:45:24,769 66856 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:45:54,127 91120 root start 23 INFO: Starting DNS Server
+2018-04-14 02:45:54,127 91120 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:45:54,130 91120 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:45:54,131 91120 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:46:13,175 91120 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:46:13,175 91120 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:46:26,542 90704 root start 23 INFO: Starting DNS Server
+2018-04-14 02:46:26,543 90704 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:46:26,545 90704 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:46:26,546 90704 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:46:28,902 90704 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:46:28,902 90704 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:46:55,491 78312 root start 23 INFO: Starting DNS Server
+2018-04-14 02:46:55,491 78312 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:46:55,503 78312 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:46:55,503 78312 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:46:55,504 78312 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:46:55,504 78312 dns_server.dns_server setup_worker 50 INFO: made logger
+2018-04-14 02:46:55,505 78312 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:46:55,505 78312 dns_server.dns_server start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:46:55,508 78312 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:46:55,508 78312 dns_server.dns_server start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:46:55,508 78312 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:46:55,508 78312 dns_server.dns_server start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:46:55,988 90856 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 02:46:55,996 90572 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 02:46:56,085 78312 root start 39 INFO: Ending DNS Server
+2018-04-14 02:46:56,104 91048 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 02:46:56,210 90944 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 02:47:19,701 86108 root start 23 INFO: Starting DNS Server
+2018-04-14 02:47:19,701 86108 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:47:19,712 86108 root _logger_thread 44 DEBUG: starting logger process
+2018-04-14 02:47:19,712 86108 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:47:19,712 86108 root start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:47:19,714 86108 root start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:47:19,714 86108 root start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:47:19,955 91072 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 02:47:20,066 86376 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 02:47:20,194 86108 root start 39 INFO: Ending DNS Server
+2018-04-14 02:47:20,263 90608 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 02:47:20,316 81356 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 02:47:38,163 90228 root start 23 INFO: Starting DNS Server
+2018-04-14 02:47:38,163 90228 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 02:47:38,175 90228 root _logger_thread 43 DEBUG: starting logger process
+2018-04-14 02:47:38,176 90228 root start 33 DEBUG: made dnsserver instance
+2018-04-14 02:47:38,176 90228 root start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 02:47:38,178 90228 root start_dns_server 34 INFO: bind to localhost!
+2018-04-14 02:47:38,178 90228 root start_dns_server 35 DEBUG: process count - 4
+2018-04-14 02:47:38,413 70428 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 02:47:38,557 9532 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 02:47:38,684 67736 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 02:47:38,794 82232 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:11:58,001 101048 root start 23 INFO: Starting DNS Server
+2018-04-14 12:11:58,001 101048 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 12:11:58,013 101048 root _logger_thread 43 DEBUG: starting logger process
+2018-04-14 12:11:58,013 101048 root start 33 DEBUG: made dnsserver instance
+2018-04-14 12:11:58,013 101048 root start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 12:11:58,015 101048 root start_dns_server 34 INFO: bind to localhost!
+2018-04-14 12:11:58,015 101048 root start_dns_server 35 DEBUG: process count - 4
+2018-04-14 12:11:58,260 101128 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:11:58,385 101152 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:11:58,530 101160 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:11:58,657 101200 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:12:22,304 100464 root start 23 INFO: Starting DNS Server
+2018-04-14 12:12:22,304 100464 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 12:12:22,320 100464 root _logger_thread 43 DEBUG: starting logger process
+2018-04-14 12:12:22,320 100464 root start 33 DEBUG: made dnsserver instance
+2018-04-14 12:12:22,321 100464 root start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 12:12:22,324 100464 root start_dns_server 34 INFO: bind to localhost!
+2018-04-14 12:12:22,324 100464 root start_dns_server 35 DEBUG: process count - 4
+2018-04-14 12:12:22,580 100520 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:12:22,706 100508 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:12:22,833 100536 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:12:22,953 100548 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:13:15,898 90836 root start 23 INFO: Starting DNS Server
+2018-04-14 12:13:15,898 90836 root start 27 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 12:13:15,909 90836 root _logger_thread 43 DEBUG: starting logger process
+2018-04-14 12:13:15,909 90836 root start 33 DEBUG: made dnsserver instance
+2018-04-14 12:13:15,909 90836 root start_dns_server 30 DEBUG: finish to setup the worker
+2018-04-14 12:13:15,911 90836 root start_dns_server 34 INFO: bind to localhost!
+2018-04-14 12:13:15,911 90836 root start_dns_server 35 DEBUG: process count - 4
+2018-04-14 12:13:16,202 101172 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:13:16,331 101280 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:13:16,472 101112 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:13:16,700 100748 dns_server.dns_worker listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:13:18,170 101172 dns_server.dns_worker _handle_dns_query 48 DEBUG: handling id - 0x56f5
+2018-04-14 12:13:18,170 101172 dns_server.dns_worker _handle_dns_query 55 INFO: request dns - google.com.
+2018-04-14 12:13:22,791 101280 dns_server.dns_worker _handle_dns_query 48 DEBUG: handling id - 0x93f2
+2018-04-14 12:13:22,791 101280 dns_server.dns_worker _handle_dns_query 55 INFO: request dns - google.com.
+2018-04-14 12:13:23,669 101112 dns_server.dns_worker _handle_dns_query 48 DEBUG: handling id - 0x1d18
+2018-04-14 12:13:23,669 101112 dns_server.dns_worker _handle_dns_query 55 INFO: request dns - google.com.
+2018-04-14 12:14:01,923 102360 root start 22 INFO: Starting DNS Server
+2018-04-14 12:14:01,923 102360 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 12:14:01,936 102360 root _logger_thread 42 DEBUG: starting logger process
+2018-04-14 12:14:01,936 102360 root start 32 DEBUG: made dnsserver instance
+2018-04-14 12:14:01,936 102360 root start_dns_server 28 DEBUG: finish to setup the worker
+2018-04-14 12:14:01,937 102360 root start_dns_server 32 INFO: bind to localhost!
+2018-04-14 12:14:01,938 102360 root start_dns_server 33 DEBUG: process count - 4
+2018-04-14 12:14:02,201 101464 dns_server.dns_worker _listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:14:02,331 101456 dns_server.dns_worker _listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:14:02,461 99788 dns_server.dns_worker _listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:14:02,578 100524 dns_server.dns_worker _listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:15:23,295 100496 root start 22 INFO: Starting DNS Server
+2018-04-14 12:15:23,296 100496 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 12:15:23,306 100496 root _logger_thread 42 DEBUG: starting logger process
+2018-04-14 12:15:23,306 100496 root start 32 DEBUG: made dnsserver instance
+2018-04-14 12:15:23,306 100496 root start_dns_server 28 DEBUG: finish to setup the worker
+2018-04-14 12:15:23,307 100496 root start_dns_server 32 INFO: bind to localhost!
+2018-04-14 12:15:23,307 100496 root start_dns_server 33 DEBUG: process count - 4
+2018-04-14 12:15:23,557 99688 dns_server.dns_worker _listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:15:23,695 101300 dns_server.dns_worker _listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:15:23,815 98516 dns_server.dns_worker _listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 12:15:23,926 99032 dns_server.dns_worker _listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 13:19:46,178 6572 root start 22 INFO: Starting DNS Server
+2018-04-14 13:19:46,179 6572 root start 26 DEBUG: made DnsServer with blacklist ['gstatic', 'track.wesell', 'settings-win.data.microsoft.com.', 'cdn.content.prod.cms.msn.com', 'services.pornhub', 'm1.nsimg', 'm2.nsimg.net', 'advertising.amazon.com', 'my.nanorep.com'], process count 4, dns server ip 1.1.1.1
+2018-04-14 13:19:46,195 6572 root _logger_thread 42 DEBUG: starting logger process
+2018-04-14 13:19:46,195 6572 root start 32 DEBUG: made dnsserver instance
+2018-04-14 13:19:46,196 6572 root start_dns_server 28 DEBUG: finish to setup the worker
+2018-04-14 13:19:46,197 6572 root start_dns_server 32 INFO: bind to localhost!
+2018-04-14 13:19:46,197 6572 root start_dns_server 33 DEBUG: process count - 4
+2018-04-14 13:19:46,494 98820 dns_server.dns_worker _listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 13:19:46,616 67828 dns_server.dns_worker _listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 13:19:46,748 83716 dns_server.dns_worker _listen_to_requests 35 INFO: Starting listening to local requests
+2018-04-14 13:19:46,867 102844 dns_server.dns_worker _listen_to_requests 35 INFO: Starting listening to local requests
