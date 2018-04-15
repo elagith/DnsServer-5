@@ -26,15 +26,19 @@ class DNSServer:
     def start_dns_server(self):
         self.setup_worker()
         self._logger.debug('finish to setup the worker')
+        dns_processes = []
         with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as localhost_socket:
-            dns_processes = []
             localhost_socket.bind((self._LOCAL_IP, self._DNS_PORT))
             self._logger.info('bind to localhost!')
             self._logger.debug('process count - {0}'.format(self._PROCESS_COUNT))
             for i in range(self._PROCESS_COUNT):
                 dns_worker = DNSWorker(self._BLACKLIST_DNS, self._DNS_SERVER_IP, localhost_socket, self._writer)
-                multiprocessing.Process(target=dns_worker.start_worker, args=()).start()
-                dns_processes.append(dns_worker)
+                dns_worker_process = multiprocessing.Process(target=dns_worker.start_worker, args=())
+                dns_worker_process.start()
+                dns_processes.append(dns_worker_process)
+        for dns_process in dns_processes:
+            dns_process.join()
+
 
     def setup_worker(self):
         self._logger = logging.getLogger()

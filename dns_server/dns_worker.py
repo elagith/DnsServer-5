@@ -3,6 +3,7 @@ import logging.config
 import logging.handlers
 import json
 import socket
+import os
 
 from core.pipe_handler import PipeHandler
 from dnslib import DNSRecord, RR, QTYPE, A
@@ -10,6 +11,7 @@ from dnslib import DNSRecord, RR, QTYPE, A
 
 class DNSWorker:
     _DNS_PORT = 53
+    CONFIG_FILE = os.path.dirname(__file__) + '/config.json'
 
     def __init__(self, blacklist_dns, dns_server_ip, dns_socket, pipe):
         self.pipe = pipe
@@ -19,11 +21,16 @@ class DNSWorker:
         self._DNS_SOCKET = dns_socket
 
     def start_worker(self):
-        self._setup_worker()
-        self._listen_to_requests()
+        try:
+            self._setup_worker()
+            self._listen_to_requests()
+            self._logger.debug('stopped to listen')
+        except Exception:
+            self._logger.fatal('Something happend', exec_info=True)
+            exit()
 
     def _setup_worker(self):
-        with open(__package__ + '\config.json') as config_file:
+        with open(self.CONFIG_FILE) as config_file:
             data = json.load(config_file)
         logging.config.dictConfig(data['logging'])
         self._logger = logging.getLogger(__name__)
@@ -34,14 +41,10 @@ class DNSWorker:
     def _listen_to_requests(self):
         self._logger.info('Starting listening to local requests')
         while True:
-            try:
-                raw_data, addr = self._DNS_SOCKET.recvfrom(512)
-                self._handle_dns_query(raw_data, addr, self._DNS_SOCKET)
-            except ConnectionResetError:
-                pass
-            except Exception:
-                self._logger.fatal('Something happend', exec_info=True)
-                exit()
+            self._logger.debug('waiting to data')
+            raw_data, addr = self._DNS_SOCKET.recvfrom(512)
+            self._logger.debug('received data!')
+            self._handle_dns_query(raw_data, addr, self._DNS_SOCKET)
 
     def _handle_dns_query(self, raw_data, addr, localhost_socket):
         dns_query = DNSRecord.parse(raw_data)
