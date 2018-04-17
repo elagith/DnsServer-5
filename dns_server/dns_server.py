@@ -3,6 +3,7 @@ import logging.config
 import multiprocessing
 import os
 import socket
+import time
 from multiprocessing import Pipe
 
 from .dns_worker import DNSWorker
@@ -29,7 +30,7 @@ class DNSServer:
         dns_processes = []
         with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as localhost_socket:
             localhost_socket.bind((self._LOCAL_IP, self._DNS_PORT))
-            self._logger.info('bind to localhost!')
+            self._logger.info('bind to localhost on port {}'.format(self._DNS_PORT))
             self._logger.debug('process count - {0}'.format(self._PROCESS_COUNT))
             for i in range(self._PROCESS_COUNT):
                 dns_worker = DNSWorker(self._BLACKLIST_DNS, self._DNS_SERVER_IP, localhost_socket, self._writer)

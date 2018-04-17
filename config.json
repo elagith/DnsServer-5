@@ -31,14 +31,14 @@
         "class": "logging.handlers.RotatingFileHandler",
         "formatter": "general",
         "maxBytes": 1073741824,
-        "filename": "C:\\log.log",
+        "filename": "c:\\users\\eran\\pycharmprojects\\dnsserver\\log.log",
         "backupCount":10
       }
     },
     "loggers": {},
     "root": {
       "handlers": [
-        "console", "file"
+        "file"
       ],
       "level": "DEBUG"
     }

@@ -2,15 +2,14 @@ import json
 import logging
 import logging.config
 import os
+import socket
 import threading
+import win32event
+import win32service
+
+import servicemanager
 
 from dns_server import DNSServer
-
-import win32serviceutil
-import win32service
-import win32event
-import servicemanager
-import socket
 
 
 class Initializer:
@@ -25,9 +24,6 @@ class Initializer:
     def start(self):
         self._setup()
 
-        import socket
-
-        self._logger.info(socket.gethostbyname(socket.gethostname()))
         try:
             self._logger.info('Starting DNS Server')
             self._logger.debug(
@@ -67,28 +63,7 @@ class Initializer:
         self._logger = logging.getLogger()
 
 
-class AppServerSvc(win32serviceutil.ServiceFramework):
-    _svc_name_ = "DnsServer"
-    _svc_display_name_ = "DnsServer"
-
-    def __init__(self, args):
-        win32serviceutil.ServiceFramework.__init__(self, args)
-        self.hWaitStop = win32event.CreateEvent(None, 0, 0, None)
-        socket.setdefaulttimeout(60)
-
-    def SvcStop(self):
-        self.ReportServiceStatus(win32service.SERVICE_STOP_PENDING)
-        win32event.SetEvent(self.hWaitStop)
-
-    def SvcDoRun(self):
-        servicemanager.LogMsg(servicemanager.EVENTLOG_INFORMATION_TYPE,
-                              servicemanager.PYS_SERVICE_STARTED,
-                              (self._svc_name_, ''))
-        Initializer().start()
-
-
 if __name__ == '__main__':
-    win32serviceutil.HandleCommandLine(AppServerSvc)
-#    Initializer().start()
+    Initializer().start()
 
 
