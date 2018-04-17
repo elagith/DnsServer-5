@@ -27,7 +27,7 @@
     "clients4.google.com",
     "tpc.googlesyndication.com"
   ],
-  "reload_blacklist_interval": 60,
+  "reload_blacklist_interval": 3600,
   "process_count": 1,
   "dns_server_ip": "1.1.1.1",
   "logging": {
