@@ -9,7 +9,7 @@ from .dns_worker import DNSWorker
 
 
 class DNSServer:
-    CONFIG_FILE = os.path.dirname(__file__) + '/config.json'
+    CONFIG_FILE = '{}/config.json'.format(os.path.dirname(__file__))
 
     _LOCAL_IP = '127.0.0.1'
     _DNS_PORT = 53

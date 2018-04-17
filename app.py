@@ -10,7 +10,7 @@ from dns_server import DNSServer
 
 
 class Initializer:
-    CONFIG_FILE = os.path.dirname(__file__) + '/config.json'
+    CONFIG_FILE = '{}/config.json'.format(os.path.dirname(__file__))
 
     def __init__(self):
         self._process_count = 0

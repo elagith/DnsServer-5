@@ -12,7 +12,7 @@ from dnslib import DNSRecord, RR, QTYPE, A
 
 class DNSWorker:
     _DNS_PORT = 53
-    CONFIG_FILE = os.path.dirname(__file__) + '/config.json'
+    CONFIG_FILE = '{}/config.json'.format(os.path.dirname(__file__))
 
     def __init__(self, blacklist_dns: [str], dns_server_ip: str, dns_socket: socket.socket, pipe: multiprocessing.Pipe):
         self.pipe = pipe
