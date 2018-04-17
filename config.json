@@ -7,25 +7,25 @@
     "services.pornhub",
     "m1.nsimg",
     "m2.nsimg.net",
-	"advertising.amazon.com",
+    "advertising.amazon.com",
     "my.nanorep.com",
-	"google-analytics",
-	"adservice.google.com",
-	"cuscochromeextension-pa.googleapis.com",
-	"banananalytics",
-	"mtalk.google.com",
-	"sstats.adobe.com",
-	"client-channel.google.com.",
-	"array802-prod.do.dsp.mp.microsoft.com",
-	"secure.eloqua.com",
-	"rum-static.pingdom.net",
-	"static.hotjar.com",
-	"static.doubleclick.net",
-	"static.xx.fbcdn.net",
-	"staticxx.facebook.com",
-	"static-hw.xvideos.com",
-	"clients4.google.com",
-	"tpc.googlesyndication.com"
+    "google-analytics",
+    "adservice.google.com",
+    "cuscochromeextension-pa.googleapis.com",
+    "banananalytics",
+    "mtalk.google.com",
+    "sstats.adobe.com",
+    "client-channel.google.com.",
+    "array802-prod.do.dsp.mp.microsoft.com",
+    "secure.eloqua.com",
+    "rum-static.pingdom.net",
+    "static.hotjar.com",
+    "static.doubleclick.net",
+    "static.xx.fbcdn.net",
+    "staticxx.facebook.com",
+    "static-hw.xvideos.com",
+    "clients4.google.com",
+    "tpc.googlesyndication.com"
   ],
   "reload_blacklist_interval": 60,
   "process_count": 1,
@@ -40,18 +40,24 @@
       }
     },
     "handlers": {
+      "console": {
+        "class": "logging.StreamHandler",
+        "formatter": "general",
+        "stream": "ext://sys.stdout"
+      },
       "file": {
         "class": "logging.handlers.RotatingFileHandler",
         "formatter": "general",
         "maxBytes": 1073741824,
         "filename": "c:\\users\\eran\\pycharmprojects\\dnsserver\\log.log",
-        "backupCount":10
+        "backupCount": 10
       }
     },
     "loggers": {},
     "root": {
       "handlers": [
-        "file"
+        "file",
+        "console"
       ],
       "level": "DEBUG"
     }

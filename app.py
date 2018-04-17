@@ -61,10 +61,13 @@ class Initializer:
     def _logger_thread(self, pipe):
         self._logger.debug('starting logger process')
         while True:
-            record = pipe.recv()
-            if record is None:
-                break
-            self._logger.handle(record)
+            try:
+                record = pipe.recv()
+                if record is None:
+                    break
+                self._logger.handle(record)
+            except EOFError:
+                pass
 
     def _setup(self):
         with open(self.CONFIG_FILE) as config_file:
