@@ -3,7 +3,6 @@ import logging.config
 import multiprocessing
 import os
 import socket
-import time
 from multiprocessing import Pipe
 
 from .dns_worker import DNSWorker
@@ -15,7 +14,7 @@ class DNSServer:
     _LOCAL_IP = '127.0.0.1'
     _DNS_PORT = 53
 
-    def __init__(self, blacklist_dns=[], process_count=1, dns_server_ip='1.1.1.1'):
+    def __init__(self, blacklist_dns: [str] = [], process_count: int = 1, dns_server_ip: str = '1.1.1.1'):
         self._logger = None
         self._PROCESS_COUNT = process_count
         self._DNS_SERVER_IP = dns_server_ip
@@ -23,7 +22,7 @@ class DNSServer:
         self._reader, self._writer = Pipe(duplex=False)
 
     def start_dns_server(self):
-        self.setup_worker()
+        self._setup_worker()
         self._logger.debug('finish to setup the worker')
         dns_processes = []
         try:
@@ -41,7 +40,7 @@ class DNSServer:
         except Exception:
             self._logger.error('Something happend!', exc_info=True)
 
-    def setup_worker(self):
+    def _setup_worker(self):
         self._logger = logging.getLogger()
 
     def get_read_pipe(self):
