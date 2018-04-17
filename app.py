@@ -58,7 +58,7 @@ class Initializer:
             self._logger.debug('current blacklist is {}'.format(self._blacklist))
             time.sleep(60)
 
-    def _logger_thread(self, pipe):
+    def _logger_thread(self, pipe: multiprocessing.Pipe):
         self._logger.debug('starting logger process')
         while True:
             try:
