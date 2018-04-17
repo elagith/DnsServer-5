@@ -27,7 +27,6 @@ class DNSWorker:
             self._logger.debug('stopped to listen')
         except Exception:
             self._logger.fatal('Something happend', exec_info=True)
-            exit()
 
     def _setup_worker(self):
         with open(self.CONFIG_FILE) as config_file:
@@ -48,14 +47,14 @@ class DNSWorker:
 
     def _handle_dns_query(self, raw_data, addr, localhost_socket):
         dns_query = DNSRecord.parse(raw_data)
-        self._logger.debug('handling id - ' + hex(dns_query.header.id))
+        self._logger.debug('handling id - {}'.format(hex(dns_query.header.id)))
         if self._is_blacklist(dns_query):
             self._replay_dns_none(addr, dns_query, localhost_socket)
             return
         with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as dns_socket:
             for host_query in dns_query.questions:
                 pass
-                self._logger.info('request dns - ' + str(host_query.qname))
+                self._logger.info('request dns - '.format(str(host_query.qname)))
             dns_socket.sendto(raw_data, (self._DNS_SERVER_IP, self._DNS_PORT))
             dns_reply = self._catch_dns_answer(dns_query.header.id, dns_socket)
             localhost_socket.sendto(dns_reply.pack(), addr)
@@ -63,12 +62,12 @@ class DNSWorker:
 
     def _is_blacklist(self, dns_query):
         for host_query in dns_query.questions:
-            return len(list(filter(lambda x: x in str(host_query.qname), self._BLACKLIST_DNS))) > 0
+            return len(list(filter(lambda x: x in str(host_query.qname), list(self._BLACKLIST_DNS)))) > 0
 
     def _replay_dns_none(self, addr, dns_query, localhost_socket):
         dns_reply = dns_query.reply()
         for host_query in dns_query.questions:
-            self._logger.info('Blacklist DNS request - ' + str(host_query.qname))
+            self._logger.info('Blacklist DNS request - '.format(str(host_query.qname)))
             dns_reply.add_answer(RR(str(host_query.qname), QTYPE.A, rdata=A("0.0.0.0"), ttl=60))
         localhost_socket.sendto(dns_reply.pack(), addr)
 

@@ -27,7 +27,8 @@
 	"clients4.google.com",
 	"tpc.googlesyndication.com"
   ],
-  "process_count": 4,
+  "reload_blacklist_interval": 60,
+  "process_count": 1,
   "dns_server_ip": "1.1.1.1",
   "logging": {
     "version": 1,
@@ -39,11 +40,6 @@
       }
     },
     "handlers": {
-      "console": {
-        "class": "logging.StreamHandler",
-        "formatter": "general",
-        "stream": "ext://sys.stdout"
-      },
       "file": {
         "class": "logging.handlers.RotatingFileHandler",
         "formatter": "general",
