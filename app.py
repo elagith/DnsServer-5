@@ -2,12 +2,7 @@ import json
 import logging
 import logging.config
 import os
-import socket
 import threading
-import win32event
-import win32service
-
-import servicemanager
 
 from dns_server import DNSServer
 
