@@ -31,7 +31,7 @@ class Initializer:
             dns = DNSServer(blacklist_dns=self._blacklist, process_count=self._process_count,
                             dns_server_ip=self._dns_server_ip)
 
-            threading.Thread(target=self._logger_thread, args=(dns.get_read_pipe(),)).start()
+            threading.Thread(target=self._logger_thread, args=(dns.get_log_reader(),)).start()
             threading.Thread(target=self._reload_blacklist).start()
 
             self._logger.debug('made dnsserver instance')
@@ -58,11 +58,11 @@ class Initializer:
             self._logger.debug('current blacklist is {}'.format(self._blacklist))
             time.sleep(60)
 
-    def _logger_thread(self, pipe: multiprocessing.Pipe):
+    def _logger_thread(self, queue: multiprocessing.Queue):
         self._logger.debug('starting logger process')
         while True:
             try:
-                record = pipe.recv()
+                record = queue.get()
                 if record is None:
                     break
                 self._logger.handle(record)

@@ -1,12 +1,11 @@
+import json
 import logging
 import logging.config
-import logging.handlers
-import json
 import multiprocessing
-import socket
 import os
+import socket
+from logging.handlers import QueueHandler
 
-from core.pipe_handler import PipeHandler
 from dnslib import DNSRecord, RR, QTYPE, A
 
 
@@ -14,8 +13,8 @@ class DNSWorker:
     _DNS_PORT = 53
     CONFIG_FILE = '{}/config.json'.format(os.path.dirname(__file__))
 
-    def __init__(self, blacklist_dns: [str], dns_server_ip: str, dns_socket: socket.socket, pipe: multiprocessing.Pipe):
-        self.pipe = pipe
+    def __init__(self, blacklist_dns: [str], dns_server_ip: str, dns_socket: socket.socket, queue: multiprocessing.Queue):
+        self._queue = queue
         self._logger = None
         self._DNS_SERVER_IP = dns_server_ip
         self._BLACKLIST_DNS = blacklist_dns
@@ -35,7 +34,7 @@ class DNSWorker:
         logging.config.dictConfig(data['logging'])
         self._logger = logging.getLogger(__name__)
 
-        qh = PipeHandler(self.pipe)
+        qh = QueueHandler(self._queue)
         self._logger.addHandler(qh)
 
     def _listen_to_requests(self):
