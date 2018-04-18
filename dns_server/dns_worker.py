@@ -13,7 +13,8 @@ class DNSWorker:
     _DNS_PORT = 53
     CONFIG_FILE = '{}/config.json'.format(os.path.dirname(__file__))
 
-    def __init__(self, blacklist_dns: [str], dns_server_ip: str, dns_socket: socket.socket, queue: multiprocessing.Queue):
+    def __init__(self, blacklist_dns: [str], dns_server_ip: str, dns_socket: socket.socket,
+                 queue: multiprocessing.Queue):
         self._queue = queue
         self._logger = None
         self._DNS_SERVER_IP = dns_server_ip
@@ -48,22 +49,24 @@ class DNSWorker:
             except ConnectionResetError:
                 self._logger.warn('Connection reset accord')
 
-
     def _handle_dns_query(self, raw_data: bytes, addr: (str, int), localhost_socket: socket.socket):
         dns_query = DNSRecord.parse(raw_data)
         self._logger.debug('handling id - {}'.format(hex(dns_query.header.id)))
+        for host_query in dns_query.questions:
+            if host_query.qname is None:
+                self._logger.warn('got empty query name')
+                return 
         if self._is_blacklist(dns_query):
             self._replay_dns_none(addr, dns_query, localhost_socket)
             return
         with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as dns_socket:
-            for host_query in dns_query.questions:
-                self._logger.info('request dns - '.format(str(host_query.qname)))
+            self._logger.info('request dns - '.format(str(host_query.qname)))
             dns_socket.sendto(raw_data, (self._DNS_SERVER_IP, self._DNS_PORT))
             dns_reply = self._catch_dns_answer(dns_query.header.id, dns_socket)
             localhost_socket.sendto(dns_reply.pack(), addr)
             return
 
-    def _is_blacklist(self, dns_query: DNSRecord):
+    def _is_blacklist(self, dns_query: DNSRecord) -> object:
         for host_query in dns_query.questions:
             return len(list(filter(lambda x: x in str(host_query.qname), list(self._BLACKLIST_DNS)))) > 0
 
