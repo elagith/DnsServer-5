@@ -18,8 +18,7 @@ class DNSServer:
         self._PROCESS_COUNT = process_count
         self._DNS_SERVER_IP = dns_server_ip
         self._BLACKLIST_DNS = blacklist_dns
-        self._queue =multiprocessing.Queue()
-
+        self._queue = multiprocessing.Queue()
 
     def start_dns_server(self):
         self._setup_worker()

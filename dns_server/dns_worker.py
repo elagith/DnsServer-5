@@ -34,7 +34,6 @@ class DNSWorker:
             data = json.load(config_file)
         logging.config.dictConfig(data['logging'])
         self._logger = logging.getLogger(__name__)
-
         qh = QueueHandler(self._queue)
         self._logger.addHandler(qh)
 

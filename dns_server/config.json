@@ -12,7 +12,7 @@
     "root": {
       "handlers": [
       ],
-      "level": "DEBUG"
+      "level": "INFO"
     }
   }
 }
