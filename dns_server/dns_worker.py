@@ -6,7 +6,7 @@ import os
 import socket
 from logging.handlers import QueueHandler
 
-from dnslib import DNSRecord, RR, QTYPE, A
+from dnslib import DNSRecord, RR, QTYPE, A, DNSLabel
 
 
 class DNSWorker:
@@ -51,29 +51,28 @@ class DNSWorker:
 
     def _handle_dns_query(self, raw_data: bytes, addr: (str, int), localhost_socket: socket.socket):
         dns_query = DNSRecord.parse(raw_data)
-        self._logger.debug('handling id - {}'.format(hex(dns_query.header.id)))
+        self._logger.debug('dns query {}'.format(dns_query.questions))
         for host_query in dns_query.questions:
-            if host_query.qname is None:
-                self._logger.warn('got empty query name')
-                return 
-        if self._is_blacklist(dns_query):
-            self._replay_dns_none(addr, dns_query, localhost_socket)
-            return
-        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as dns_socket:
-            self._logger.info('request dns - '.format(str(host_query.qname)))
-            dns_socket.sendto(raw_data, (self._DNS_SERVER_IP, self._DNS_PORT))
-            dns_reply = self._catch_dns_answer(dns_query.header.id, dns_socket)
-            localhost_socket.sendto(dns_reply.pack(), addr)
-            return
+            if self._is_blacklist(host_query.qname):
+                self._replay_dns_none(addr, dns_query, localhost_socket)
+            else:
+                with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as dns_socket:
+                    self._logger.info(
+                        'request dns - {}, id {}'.format(str(host_query.qname), hex(dns_query.header.id)))
+                    dns_socket.sendto(raw_data, (self._DNS_SERVER_IP, self._DNS_PORT))
+                    dns_reply = self._catch_dns_answer(dns_query.header.id, dns_socket)
+                    self._logger.info(
+                        'answer to {}, id {}, is {}'.format(str(host_query.qname), hex(dns_query.header.id),
+                                                            [x.rdata for x in dns_reply.rr]))
+                    localhost_socket.sendto(dns_reply.pack(), addr)
 
-    def _is_blacklist(self, dns_query: DNSRecord) -> object:
-        for host_query in dns_query.questions:
-            return len(list(filter(lambda x: x in str(host_query.qname), list(self._BLACKLIST_DNS)))) > 0
+    def _is_blacklist(self, qname: DNSLabel) -> object:
+        return len(list(filter(lambda x: x in str(qname), list(self._BLACKLIST_DNS)))) > 0
 
     def _replay_dns_none(self, addr: (str, int), dns_query: DNSRecord, localhost_socket: socket.socket):
         dns_reply = dns_query.reply()
         for host_query in dns_query.questions:
-            self._logger.info('Blacklist DNS request - '.format(str(host_query.qname)))
+            self._logger.info('Blacklist DNS request - {}'.format(str(host_query.qname)))
             dns_reply.add_answer(RR(str(host_query.qname), QTYPE.A, rdata=A("0.0.0.0"), ttl=60))
         localhost_socket.sendto(dns_reply.pack(), addr)
 
